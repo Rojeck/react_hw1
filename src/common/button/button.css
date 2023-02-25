@@ -1,0 +1,16 @@
+@import '../../variables.css';
+
+.common-btn {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  outline: none;
+  border: 2px solid var(--blue-color);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.common-btn:hover {
+  background-color: var(--blue-color);
+  color: white;
+}

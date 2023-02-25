@@ -1,0 +1,13 @@
+.card {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid var(--green-color);
+    display: flex;
+    gap: 30px;
+}
+.card__curse-text {
+    flex: 0 1 70%;
+}
+.card__curse-info {
+    flex: 0 0 30%;
+}

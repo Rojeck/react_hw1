@@ -1,0 +1,16 @@
+.courses-block {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.courses__panel {
+    display: flex;
+    justify-content: space-between;
+}
+.courses {
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid var(--blue-color);
+}

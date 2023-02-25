@@ -1,0 +1,7 @@
+.row {
+    display: flex;
+    gap: 8px;
+}
+.seach-bar {
+    display: inline-block;
+}

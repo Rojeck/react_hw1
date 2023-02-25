@@ -1,0 +1,39 @@
+.row {
+    justify-content: space-between;
+    display: flex;
+}
+.textarea {
+    width: 100%;
+    border: 1px solid yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    font-family: serif;
+    font-size: 20px;
+}
+.creation-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.author-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.author-name {
+    line-height: 40px;
+}
+.authors-list {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+}
+h3 {
+    text-align: center;
+}
+ul {
+    padding: 0;
+}

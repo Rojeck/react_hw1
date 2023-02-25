@@ -1,0 +1,23 @@
+@import '../../variables.css';
+
+.user-info {
+  gap: 5px;
+  display: flex;
+  max-height: 45px;
+  line-height: 50px;
+  margin-top: 15px;
+}
+.user-info__user-name {
+    padding: 0 10px;
+    line-height: 45px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  border: 2px solid var(--orange-color);
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100px;
+}
+

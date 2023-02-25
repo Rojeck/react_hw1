@@ -1,0 +1,15 @@
+@import '../../variables.css';
+
+input {
+    outline: none;
+    border: 2px solid var(--orange-color);
+    padding: 5px;
+    font-size: 16px;
+    min-width: 300px;
+}
+
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
